@@ -89,7 +89,6 @@ void Roster::remove (string student_id) {
         if (classRosterArray[i] != nullptr and classRosterArray[i]->getStudentId() == student_id) {
             delete classRosterArray[i];
             classRosterArray[i] = nullptr;
-            cout << classRosterArray[i] << endl;
             break;
         }
         // if not found after last iteration display not found message

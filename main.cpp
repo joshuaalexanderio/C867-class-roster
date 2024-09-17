@@ -40,7 +40,6 @@ int main(int argc, const char * argv[]) {
     }
     classRoster.printByDegreeProgram(SOFTWARE);
     classRoster.remove("A3");
-//    cout << classRoster.classRosterArray[2]->getEmailAddress() << endl;
     classRoster.printAll();
     classRoster.remove("A3");
 }
